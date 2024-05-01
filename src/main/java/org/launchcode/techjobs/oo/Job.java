@@ -36,13 +36,35 @@ public class Job {
 
     // TODO: Add custom equals and hashCode methods. Consider two Job objects "equal" when their id fields match.
 
-    // ??? 5.
-    // Notes: boolean, @Override constructors,
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Job job = (Job) o;
+        return id == job.id;
+    }
 
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(id);
+    }
+
+    public String toString() {
+        return "\nID: " + this.id
+                + "\nName: " +  (this.name == "" ? "Data not available" : this.name)
+                + "\nEmployer: " + (this.employer.toString() == "" ? "Data not available" : this.employer.toString())
+                + "\nLocation: " + (this.location.toString() == "" ? "Data not available" : this.location.toString())
+                + "\nPosition Type: " + (this.positionType.toString() == "" ? "Data not available" : this.positionType.toString())
+                + "\nCore Competency: " + (this.coreCompetency.toString() == "" ? "Data not available" : this.coreCompetency.toString()) + "\n";
+    }
 
     // TODO: Add getters for each field EXCEPT nextId. Add setters for each field EXCEPT nextID and id.
 
     // 4. getters and setters for each field EXCEPT nextID and ID. Add setter for Id
+
+    public int getId() {
+        return this.id;
+    }
 
     public void setId(int id) {
         this.id = id;
