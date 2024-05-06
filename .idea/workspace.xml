@@ -7,8 +7,6 @@
     <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/PositionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/PositionType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +78,7 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.TestTaskFive">
+  <component name="RunManager" selected="Gradle.JobTest">
     <configuration name="JobTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -203,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.JobTest" />
         <item itemvalue="Gradle.TestTaskFive" />
         <item itemvalue="Gradle.TestTaskFive.testToStringHandlesEmptyField" />
         <item itemvalue="Gradle.TestTaskFive.testTestToStringHandlesEmptyFieldExists" />
         <item itemvalue="Gradle.TestTaskFive.testTestToStringStartsAndEndsWithNewLineExists" />
-        <item itemvalue="Gradle.JobTest" />
       </list>
     </recent_temporary>
   </component>
@@ -240,11 +238,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/TestTaskTwo.java</url>
           <line>14</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
